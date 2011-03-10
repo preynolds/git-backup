@@ -2,7 +2,7 @@ This was created to maintain an offsite backup of my private git repositories.
 
 Usage:
 
-1. Clone your repositories to be backed up into a single directory on some server
+1. Clone your repositories to be backed up into a single directory on some server:
 
     mkdir /home/myuser/mybackups
     cd /home/myuser/mybackups
