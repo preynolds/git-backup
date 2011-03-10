@@ -2,7 +2,7 @@
 # == Synopsis 
 #    Backup all of your git repositories
 # 
-# == Usage 
+# == Usage
 #    1) clone your repositories into one location (baseDir) on some server
 #    2) in this file, modify 'baseDir' to match the actual directory on your server
 #    3) ./backup.rb
