@@ -2,7 +2,11 @@ This was created to maintain an offsite backup of my private git repositories.
 
 Usage:
 
-1. clone your repositories into one location (baseDir) on some server
-2. modify `baseDir` to match the actual directory on your server
-3. run `./backup.rb`
-4. add it to cron via `crontab -e` for scheduled backups
+1. Clone your repositories to be backed up into a single directory on some server
+  mkdir /home/myuser/mybackups
+  cd /home/myuser/mybackups
+  git clone user@server:repo1
+  git clone user@server:repo2
+2. Modify `baseDir` to match the full path to the directory you used in step 1
+3. Run `./backup.rb`
+4. Add it to cron via `crontab -e` for scheduled backups
